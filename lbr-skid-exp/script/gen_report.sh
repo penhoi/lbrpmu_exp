@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #generate file  $1.txt
-#./parse_lbr.sh "$1"
+./parse_lbr.sh "$1"
 
 #get the top half of LBR record; generate file $1.txt.top
-#./half_lbrrcd.sh $1.txt
+./half_lbrrcd.sh $1.txt
 
 
 #format

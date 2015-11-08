@@ -24,7 +24,7 @@ def main(strFData, strFOut):
             nUsedSlot = int(strLine[nFlagLen:])
             #error test
             if nUsedSlot+nIndexData > len(liData):
-                print "Data format error! @", nIndexData
+                print "Data format error! @", nIndexData, ", but i can fixup"
                 break
             
             #add part of data
